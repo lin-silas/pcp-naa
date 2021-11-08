@@ -27,10 +27,10 @@ fi
 
 # /usr/bin
 cd /usr/bin
-wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa.sh
-wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/sq.sh
+sudo wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa.sh
+sudo wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/sq.sh
 sudo chmod +x *.sh
 
 echo "Rebooting..."
 sleep 3
-pcp
+pcp br
