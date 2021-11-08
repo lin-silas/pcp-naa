@@ -25,6 +25,12 @@ sudo taskset -p 0x00000008 $(pgrep networkaudiod*)
 EOL
 fi
 
+# tc home
+cd ~
+wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa.sh
+wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/sq.sh
+sudo chmod +x *.sh
+
 echo "Rebooting..."
 sleep 3
 pcp
