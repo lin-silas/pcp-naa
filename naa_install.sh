@@ -25,8 +25,8 @@ sudo taskset -p 0x00000008 $(pgrep networkaudiod*)
 EOL
 fi
 
-# tc home
-cd ~
+# /usr/bin
+cd /usr/bin
 wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa.sh
 wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/sq.sh
 sudo chmod +x *.sh
