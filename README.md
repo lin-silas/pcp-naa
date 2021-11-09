@@ -11,3 +11,9 @@ Login to piCorePlayer using ssh
 To install naa, run:
 
 `wget -O - https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa_install.sh | sh`
+
+If you don't want to autostart naa, you can change in piCorePlayer's web UI.
+
+Choose [Tweaks] -> [User command #1]
+
+Change `/home/tc/naa.sh` to `#/home/tc/naa.sh`
