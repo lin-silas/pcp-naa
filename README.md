@@ -3,10 +3,10 @@ naa(Network Audio Daemon) for picoreplayer
 
 Script to install naa on piCorePlayer 7.x or later version.
 
-pCP8 Apple (recommended)
+pCP8 (recommended)
 
-https://raw.githubusercontent.com/sam0402/Q176KHz/main/pCP8-Q176_APL.img.7z.001
-https://raw.githubusercontent.com/sam0402/Q176KHz/main/pCP8-Q176_APL.img.7z.002
+https://drive.google.com/file/d/1m5G...ew?usp=sharing Q176_APL Player版
+https://drive.google.com/file/d/1lyK...ew?usp=sharing Q176_APL LMS版
 
 Login to piCorePlayer using ssh
 
