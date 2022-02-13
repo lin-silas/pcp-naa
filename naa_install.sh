@@ -10,7 +10,7 @@ sed -i '/naa_arm64.tcz/d' onboot.lst
 echo naa_arm64.tcz >>onboot.lst
 cd optional
 tce-load -i ca-certificates.tcz
-wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa_4.2.0-50.tcz
+wget https://raw.githubusercontent.com/lin-silas/pcp-naa/main/naa_arm64.tcz
 
 # tc home
 cd ~
