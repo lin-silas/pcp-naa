@@ -1,4 +1,4 @@
-# pcp-naa
+# pcp-naa 4.2.0-50
 naa(Network Audio Daemon) for picoreplayer
 
 Script to install naa on piCorePlayer 7.x or later version.
