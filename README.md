@@ -5,12 +5,12 @@ Script to install naa on piCorePlayer 7.x or later version.
 
 pCP8 (recommended)
 
-https://github.com/sam0402/pcp-44.1KHz/raw/master/pCP8-Q264_APL.img.7z.001
+https://github.com/sam0402/pcp-44.1KHz/raw/master/pCP8-Q176_HDs.img.7z.001
 
-https://github.com/sam0402/pcp-44.1KHz/raw/master/pCP8-Q264_APL.img.7z.002
+https://github.com/sam0402/pcp-44.1KHz/raw/master/pCP8-Q176_HDs.img.7z.002
 
 It is recommanded to change these settings:
-1. Choose [Tweaks] -> [pCP Kernel Tweaks] -> [Kernel Frequency] -> [PCM264]
+1. Choose [Tweaks] -> [pCP Kernel Tweaks] -> [Kernel Frequency] -> [176]
 2. Choose [Tweaks] -> [pCP Kernel Tweaks] -> [Advanced Overclock] -> [2205] (Optional, if your have good heat treatment.)
 
 Login to piCorePlayer using ssh
