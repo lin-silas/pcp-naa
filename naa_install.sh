@@ -6,7 +6,7 @@
 useBusybox
 TARGET=`cat /etc/sysconfig/backup_device`
 cd /mnt/$TARGET
-sed -i '/naa_arm64.tcz/d' onboot.lst
+sed -i '/naa_4.2.0-50.tcz/d' onboot.lst
 echo naa_arm64.tcz >>onboot.lst
 cd optional
 tce-load -i ca-certificates.tcz
